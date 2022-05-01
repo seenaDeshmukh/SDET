@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		monochrome=true,
 		dryRun=false,
 		tags="@All",
-		plugin={"pretty"}
+		plugin={"pretty","html:reports/htmlreport"}
 	
 		)
 public class TestRunner {
